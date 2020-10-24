@@ -2,10 +2,21 @@
 
 Примеры: 
 
-1. Получение всех игроков сервера
+1. Получение всех игроков сервера:
 ```csharp
 var client = new SpClient();
 var players = await client.GetOnlinePlayersAsync();
 Console.WriteLine(String.Join("\n", players.ServerPlayers.Select(x => x.Nickname)));
+Console.ReadKey();
+```
+
+2. Получение записей из чата: 
+```csharp
+var client = new SpClient();
+var messages = await client.GetChatMessagesAsync();
+foreach(var message in messages)
+{
+Console.WriteLine($"{message.Time}:{message.Name} -- {message.Content}");
+}
 Console.ReadKey();
 ```
