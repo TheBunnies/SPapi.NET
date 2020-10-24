@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/tabdSTPKmxiqb6xEOTEA+uY3r7ButDniRlfRM2xXsk162qg57TXOw/O/Pg4HzHFtNWn/0ZHnJNPlbrgpebBTQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lucky\\source\\repos\\SPapi.NET\\SPapi.NET\\SPapi.NET.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucky\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

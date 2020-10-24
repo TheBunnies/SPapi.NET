@@ -1,0 +1,9 @@
+C:\Users\lucky\source\repos\SPapi.NET\SPapi.NET\bin\Debug\netcoreapp3.1\SPapi.NET.deps.json
+C:\Users\lucky\source\repos\SPapi.NET\SPapi.NET\bin\Debug\netcoreapp3.1\SPapi.NET.dll
+C:\Users\lucky\source\repos\SPapi.NET\SPapi.NET\obj\Debug\netcoreapp3.1\SPapi.NET.csprojAssemblyReference.cache
+C:\Users\lucky\source\repos\SPapi.NET\SPapi.NET\obj\Debug\netcoreapp3.1\SPapi.NET.AssemblyInfoInputs.cache
+C:\Users\lucky\source\repos\SPapi.NET\SPapi.NET\obj\Debug\netcoreapp3.1\SPapi.NET.AssemblyInfo.cs
+C:\Users\lucky\source\repos\SPapi.NET\SPapi.NET\bin\Debug\netcoreapp3.1\SPapi.NET.pdb
+C:\Users\lucky\source\repos\SPapi.NET\SPapi.NET\obj\Debug\netcoreapp3.1\SPapi.NET.csproj.CoreCompileInputs.cache
+C:\Users\lucky\source\repos\SPapi.NET\SPapi.NET\obj\Debug\netcoreapp3.1\SPapi.NET.dll
+C:\Users\lucky\source\repos\SPapi.NET\SPapi.NET\obj\Debug\netcoreapp3.1\SPapi.NET.pdb
