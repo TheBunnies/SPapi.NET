@@ -46,4 +46,4 @@ var client = new SpClient();
 client.MessageAdd += async (sender, e) => {Console.WriteLine($"{e.Nickname} - {e.Content}"); };
 await Task.Delay(-1);
 ```
-Подписка на остальные события соершаются аналогично. 
+Подписки на остальные события соершаются аналогично. 
