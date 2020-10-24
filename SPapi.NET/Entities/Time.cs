@@ -6,6 +6,7 @@ namespace SPapi.NET.Entities
 {
     public class Time
     {
+        internal Time() {}
         [JsonProperty("time")]
         [System.Text.Json.Serialization.JsonConverter(typeof(JsonStringEnumConverter))]
         public DayTime DayTime { get; set; }

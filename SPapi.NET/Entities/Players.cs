@@ -5,6 +5,7 @@ namespace SPapi.NET.Entities
 {
     public class Players
     {
+        internal Players() {}
         [JsonProperty("players")]
         public List<Player> ServerPlayers { get; set; }
 

@@ -5,6 +5,8 @@ namespace SPapi.NET.Entities
 {
     public class Message
     {
+        internal Message() {}
+
         [JsonProperty("name")]
         public string Name { get; set; }
 
