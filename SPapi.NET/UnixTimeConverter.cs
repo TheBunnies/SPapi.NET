@@ -2,7 +2,7 @@
 
 namespace SPapi.NET
 {
-    public static class UnixTimeConverter 
+    internal static class UnixTimeConverter 
     {
         public static DateTime UnixTimeStampToDateTime( double unixTimeStamp )
         {
