@@ -36,7 +36,7 @@ Console.ReadKey();
 ```csharp 
 var client = new SpClient();
 var weather = await client.GetWeatherAsync();
-Console.WriteLine(weather.WorldWeather);
+Console.WriteLine(weather);
 Console.ReadKey();
 ```
 
