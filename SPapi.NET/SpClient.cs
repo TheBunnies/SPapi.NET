@@ -119,7 +119,7 @@ namespace SPapi.NET
                     {
                         await MessageAdd.InvokeAsync(this, new MessageAddEventArgs
                         {
-                            Nickname = o["messages"][0]["name"].ToString(),
+                            Author = o["messages"][0]["name"].ToString(),
                             Time = time,
                             Uuid = o["messages"][0]["uuid"].ToString(),
                             Content = o["messages"][0]["message"].ToString()

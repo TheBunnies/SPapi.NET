@@ -8,7 +8,7 @@ namespace SPapi.NET.Entities
         internal Message() {}
 
         [JsonProperty("name")]
-        public string Name { get; set; }
+        public string Author { get; set; }
 
         [JsonProperty("time")]
         internal string RawTime { get; set; }
