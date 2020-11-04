@@ -19,7 +19,7 @@ namespace SPapi.NET
         {
             Timer aTimer = new Timer();
             aTimer.Elapsed += OnTimedEvent;
-            aTimer.Interval = 3000;
+            aTimer.Interval = 5000;
             aTimer.Enabled = true;
         }
 
@@ -190,7 +190,7 @@ namespace SPapi.NET
             }
             catch (Exception ex)
             {
-                throw new RateLimitHitException("RateLimit hit", ex);
+                
             }
         }
         

@@ -3,7 +3,7 @@
 namespace SPapi.NET.Exceptions
 {
     [Serializable]
-    internal class RateLimitHitException : Exception
+    public class RateLimitHitException : Exception
     {
         internal RateLimitHitException() : base() {}
         internal RateLimitHitException(string message) : base(message) { }

@@ -3,7 +3,7 @@
 namespace SPapi.NET.Exceptions
 {
     [Serializable]
-    internal class BadRequestException : Exception
+    public class BadRequestException : Exception
     {
         internal BadRequestException() : base() {}
         internal BadRequestException(string message) : base(message) { }
