@@ -20,7 +20,7 @@ var client = new SpClient();
 var messages = await client.GetChatMessagesAsync();
 foreach(var message in messages)
 {
-Console.WriteLine($"{message.Time}:{message.Name} -- {message.Content}");
+Console.WriteLine($"{message.Time}:{message.Author} -- {message.Content}");
 }
 Console.ReadKey();
 ```
@@ -36,14 +36,14 @@ Console.ReadKey();
 ```csharp 
 var client = new SpClient();
 var weather = await client.GetWeatherAsync();
-Console.WriteLine(weather.WorldWeather);
+Console.WriteLine(weather);
 Console.ReadKey();
 ```
 
 5. Подписка на ивент ***MessageAdd***:
 ```csharp
 var client = new SpClient();
-client.MessageAdd += async (sender, e) => {Console.WriteLine($"{e.Nickname} - {e.Content}"); };
+client.MessageAdd += async (sender, e) => {Console.WriteLine($"{e.Author} - {e.Content}"); };
 await Task.Delay(-1);
 ```
 Подписки на остальные события соершаются аналогично. 
